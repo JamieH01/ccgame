@@ -1,6 +1,8 @@
 name: HTML Generation
 run-name: HTML files are being generated
 on: [push]
+permissions:
+  contents: write
 jobs:
   html-gen:
     runs-on: ubuntu-latest
@@ -8,5 +10,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4 
       - name: run script
-        run: cargo run && git add . && git commit -m "auto html build" && git push 
+        run: cargo run
+      - name: commit files
+        run: |
+          git config --global user.name 'JamieH01'
+          git config --global user.email 'JamieH01@users.noreply.github.com'
+          git add . && git commit -m "auto html build" && git push
 
