@@ -2,9 +2,11 @@ name: HTML Generation
 run-name: HTML files are being generated
 on: [push]
 jobs:
-  build:
+  html-gen:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
         uses: actions/checkout@v4 
-      - run: cargo run && git add . && git commit -m "auto html build" && git push 
+      - name: run script
+        run: cargo run && git add . && git commit -m "auto html build" && git push 
 
