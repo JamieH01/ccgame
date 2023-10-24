@@ -70,12 +70,13 @@ author = "Nick"
 
 [[card]]
 img = "Standard_Training-Dummy_Rabbit.png"
-name = "Stadard Training-Dubby Rabbit"
+name = "Stadard Training-Dummy Rabbit"
 type = "Creature"
 subtype = "Abnormality"
 power = "1"
 atk = "2"
 def = "1"
+author = "Nia"
 
 [[card]]
 img = "Green_Brew.png"
@@ -103,5 +104,10 @@ atk = "2"
 def = "2"
 author = "Gibby"
 
-
+[[card]]
+img = "Biden Blast.png"
+name = "Biden Blast"
+type = "Instant"
+power = "2"
+author = "Cat"
 
