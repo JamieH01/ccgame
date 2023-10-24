@@ -1,6 +1,7 @@
 [[card]]
 img = "Old_Lady.png"
 name = "Old Lady"
+class = "Mana Ramper"
 power = "2"
 type = "Creature"
 subtype = "Abnormality"
@@ -18,9 +19,76 @@ author = "Gibby"
 [[card]]
 img = "Behemoth.png"
 name = "Behemoth"
+class = "Creature Butcher"
 power = "X"
 type = "Creature"
 subtype = "Zombie"
 atk = "X"
 def = "X"
 author = "Obe"
+
+[[card]]
+img = "Recharge.png"
+name = "Recharge"
+class = "Creature Butcher"
+type = "Sorcery"
+power = "0"
+author = "Nia"
+
+[[card]]
+img = "Nostalgic_Embrace.png"
+name = "Nostalgic Embrace"
+class = "Creature Butcher"
+type = "Sorcery"
+power = "2"
+author = "Nia"
+
+[[card]]
+img = "Footfalls.png"
+name = "Footfalls"
+class = "Land Tapper"
+type = "Instant"
+power = "2"
+author = "Nia"
+
+[[card]]
+img = "Opened_Can_of_WellCheers.png"
+name = "Opened Can of WellCheers"
+type = "Creature"
+subtype = "Abnormality"
+power = "1"
+atk = "0"
+def = "2"
+author = "Nia"
+
+[[card]]
+img = "dotdotdot.png"
+name = "..."
+type = "Instant"
+power = "5"
+author = "Nick"
+
+[[card]]
+img = "Standard_Training-Dummy_Rabbit.png"
+name = "Stadard Training-Dubby Rabbit"
+type = "Creature"
+subtype = "Abnormality"
+power = "1"
+atk = "2"
+def = "1"
+
+[[card]]
+img = "Green_Brew.png"
+name = "Green Brew"
+type = "Instant"
+power = "3"
+author = "Nick"
+
+[[card]]
+img = "Spiderling_Meal.png"
+name = "Spiderling Meal"
+type = "Sorcery"
+class = "Creature Butcher"
+power = "1"
+author = "Nia"
+
