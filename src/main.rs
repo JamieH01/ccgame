@@ -1,6 +1,5 @@
 use std::fs;
 
-use color_eyre::eyre::Result;
 use toml::{Table, value::*, Value, map::Map};
 
 const INDEX_START:&str = r#"<!DOCTYPE html>
@@ -19,13 +18,12 @@ const CARD_START:&str = r#"<!DOCTYPE html>
         <h1>${0}</h1>"#;
 
 
-fn main() -> Result<()> {
-    color_eyre::install()?;
+fn main() {
     //so, because github pages sucks, this is basically gonna
     //be a script that just generates all the html files
     let mut index = INDEX_START.to_owned(); 
 
-    let table = fs::read_to_string("./files/cards.toml")?.parse::<Table>()?;
+    let table = fs::read_to_string("./files/cards.toml").unwrap().parse::<Table>().unwrap();
     let elem = table.iter().next().unwrap().1;
     if let Value::Array(cards) = elem {
         let list:Vec<CardEntry> = cards.iter().map(|e| match e {
@@ -65,7 +63,7 @@ fn main() -> Result<()> {
             }
 
             card_page.push_str(INDEX_END);
-            fs::write(format!("./cards/{i}.html"), card_page)?;
+            fs::write(format!("./cards/{i}.html"), card_page).unwrap();
 
             //<p><a href="thing">thing</a></p>
             index.push_str(&format!("<p><a href=\"./cards/{i}.html\">{}</a></p>\n", card.name));
@@ -75,8 +73,7 @@ fn main() -> Result<()> {
     } else { unreachable!() }
 
     index.push_str(INDEX_END);
-    fs::write("./index.html", index)?;
-    Ok(())
+    fs::write("./index.html", index).unwrap();
 }
 
 //this actually is useful
