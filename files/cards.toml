@@ -1,0 +1,26 @@
+[[card]]
+img = "Old_Lady.png"
+name = "Old Lady"
+power = "2"
+type = "Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "4"
+author = "Nia"
+
+[[card]]
+img = "Whirlwind.png"
+name = "Whirlwind"
+power = "3"
+type = "Sorcery"
+author = "Gibby"
+
+[[card]]
+img = "Behemoth.png"
+name = "Behemoth"
+power = "X"
+type = "Creature"
+subtype = "Zombie"
+atk = "X"
+def = "X"
+author = "Obe"

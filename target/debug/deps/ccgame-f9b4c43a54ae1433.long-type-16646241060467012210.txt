@@ -1,0 +1,1 @@
+FilterMap<std::iter::Map<std::slice::Iter<'_, Value>, [closure@src/main.rs:25:44: 25:47]>, fn(&toml::map::Map<std::string::String, Value>) -> Result<_, <&toml::map::Map<std::string::String, Value> as TryInto<_>>::Error> {<&toml::map::Map<std::string::String, Value> as TryInto<_>>::try_into}>
