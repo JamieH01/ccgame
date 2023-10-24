@@ -92,3 +92,16 @@ class = "Creature Butcher"
 power = "1"
 author = "Nia"
 
+[[card]]
+img = "Wasteland_Scavenger.png"
+name = "Wasteland Scavenger"
+type = "Creature"
+subtype = "Human Scavenger"
+class = "Land Tapper"
+power = "2"
+atk = "2"
+def = "2"
+author = "Gibby"
+
+
+

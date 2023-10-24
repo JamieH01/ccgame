@@ -1,0 +1,9 @@
+name: HTML Generation
+run-name: HTML files are being generated
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: cargo run && git add . && git commit -m "auto html build" && git push 
+
