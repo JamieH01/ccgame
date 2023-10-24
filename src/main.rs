@@ -65,10 +65,10 @@ fn main() -> Result<()> {
             }
 
             card_page.push_str(INDEX_END);
-            fs::write(format!("./cards/{i}"), card_page)?;
+            fs::write(format!("./cards/{i}.html"), card_page)?;
 
             //<p><a href="thing">thing</a></p>
-            index.push_str(&format!("<p><a href=\"./cards/{i}\">{}</a></p>\n", card.name));
+            index.push_str(&format!("<p><a href=\"./cards/{i}.html\">{}</a></p>\n", card.name));
         }
         
 
