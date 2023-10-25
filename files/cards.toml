@@ -1,4 +1,61 @@
 [[card]]
+img = "Beauty and the Beast.png"
+name = "Beauty and the Beast"
+class = "Mana Ramper"
+power = "3"
+type = "Creature"
+subtype = "Abnormality"
+atk = "1"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Blue Star.png"
+name = "Blue Star"
+class = "Mana Ramper"
+power = "8"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "3"
+def = "8"
+author = "Nia"
+
+[[card]]
+img = "Cycle of the Curse.png"
+name = "Cycle of the Curse"
+class = "Mana Ramper"
+power = "3"
+type = "Enchantment"
+author = "Nia"
+
+[[card]]
+img = "Frozen Duel.png"
+name = "Frozen Duel"
+class = "Mana Ramper"
+power = "1"
+type = "Sorcery"
+author = "Nia"
+
+[[card]]
+img = "Judgement Bird.png"
+name = "Judgement Bird"
+class = "Mana Ramper"
+power = "5"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "3"
+author = "Nia"
+
+[[card]]
+img = "Magic Bullet.png"
+name = "Magic Bullet"
+class = "Mana Ramper"
+power = "1"
+type = "Legendary Sorcery"
+author = "Nia"
+
+[[card]]
 img = "Old_Lady.png"
 name = "Old Lady"
 class = "Mana Ramper"
@@ -10,149 +67,44 @@ def = "4"
 author = "Nia"
 
 [[card]]
-img = "Whirlwind.png"
-name = "Whirlwind"
-power = "3"
-type = "Sorcery"
-author = "Gibby"
-
-[[card]]
-img = "Behemoth.png"
-name = "Behemoth"
-class = "Creature Butcher"
-power = "X"
-type = "Creature"
-subtype = "Zombie"
-atk = "X"
-def = "X"
-author = "Obe"
-
-[[card]]
-img = "Recharge.png"
-name = "Recharge"
-class = "Creature Butcher"
-type = "Sorcery"
-power = "0"
-author = "Nia"
-
-[[card]]
-img = "Nostalgic_Embrace.png"
-name = "Nostalgic Embrace"
-class = "Land Tapper"
-type = "Sorcery"
-power = "2"
-author = "Nia"
-
-[[card]]
-img = "Footfalls.png"
-name = "Footfalls"
-class = "Land Tapper"
-type = "Instant"
-power = "2"
-author = "Nia"
-
-[[card]]
-img = "Opened_Can_of_WellCheers.png"
-name = "Opened Can of WellCheers"
+img = "Red Shoes.png"
+name = "Red Shoes"
+class = "Mana Ramper"
+power = "4"
 type = "Creature"
 subtype = "Abnormality"
-power = "1"
 atk = "0"
 def = "2"
 author = "Nia"
 
 [[card]]
-img = "dotdotdot.png"
-name = "..."
-type = "Instant"
-power = "5"
-author = "Nick"
-
-[[card]]
-img = "Standard_Training-Dummy_Rabbit.png"
-name = "Stadard Training-Dummy Rabbit"
-type = "Creature"
-subtype = "Abnormality"
-power = "1"
-atk = "2"
-def = "1"
-author = "Nia"
-
-[[card]]
-img = "Green_Brew.png"
-name = "Green Brew"
-type = "Instant"
-power = "3"
-author = "Nick"
-
-[[card]]
-img = "Spiderling_Meal.png"
-name = "Spiderling Meal"
-type = "Sorcery"
-class = "Creature Butcher"
-power = "1"
-author = "Nia"
-
-[[card]]
-img = "Wasteland_Scavenger.png"
-name = "Wasteland Scavenger"
-type = "Creature"
-subtype = "Human Scavenger"
-class = "Land Tapper"
-power = "2"
-atk = "2"
-def = "2"
-author = "Gibby"
-
-[[card]]
-img = "Biden Blast.png"
-name = "Biden Blast"
-type = "Instant"
-power = "2"
-author = "Cat"
-
-[[card]]
-img = "Insight Work.png"
-name = "Insight Work"
-power = "2"
-type = "Instant"
-author = "Nia"
-
-[[card]]
-img = "1.76 MHz.png"
-name = "1.76 MHz"
-power = "2"
-type = "Environment"
-subtype = "Abnormality"
-author = "Nia"
-
-[[card]]
-img = "All-Around Helper.png"
-name = "All-Around Helper"
-class = "Creature Butcher"
-power = "3"
-type = "Creature"
-subtype = "Abnormality"
-atk = "2"
-def = "1"
-author = "Nia"
-
-[[card]]
-img = "Attachment Work.png"
-name = "Attachment Work"
-power = "2"
-type = "Instant"
-author = "Nia"
-
-[[card]]
-img = "Beauty and the Beast.png"
-name = "Beauty and the Beast"
+img = "Self-loathing.png"
+name = "Self-loathing"
 class = "Mana Ramper"
 power = "3"
+type = "Sorcery"
+author = "Nia"
+
+[[card]]
+img = "The Lady Facing the Wall.png"
+name = "The Lady Facing the Wall"
+class = "Mana Ramper"
+power = "2"
 type = "Creature"
 subtype = "Abnormality"
 atk = "1"
-def = "1"
+def = "3"
+author = "Nia"
+
+[[card]]
+img = "The Snow Queen.png"
+name = "The Snow Queen"
+class = "Mana Ramper"
+power = "4"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "5"
 author = "Nia"
 
 [[card]]
@@ -167,15 +119,113 @@ def = "5"
 author = "Nia"
 
 [[card]]
-img = "Blue Star.png"
-name = "Blue Star"
-class = "Mana Ramper"
-power = "8"
+img = "Footfalls.png"
+name = "Footfalls"
+class = "Land Tapper"
+type = "Instant"
+power = "2"
+author = "Nia"
+
+[[card]]
+img = "Lay the Bait.png"
+name = "Lay the Bait"
+class = "Land Tapper"
+power = "2"
+type = "Sorcery"
+author = "Nia"
+
+[[card]]
+img = "Meat Lantern.png"
+name = "Meat Lantern"
+class = "Land Tapper"
+power = "3"
+type = "Creature"
+subtype = "Abnormality"
+atk = "7"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Nostalgic_Embrace.png"
+name = "Nostalgic Embrace"
+class = "Land Tapper"
+type = "Sorcery"
+power = "2"
+author = "Nia"
+
+[[card]]
+img = "Primal Instincts.png"
+name = "Primal Instincts"
+class = "Land Tapper"
+power = "4"
+type = "Legendary Sorcery"
+author = "Nia"
+
+[[card]]
+img = "Scorched Girl.png"
+name = "Scorched Girl"
+class = "Land Tapper"
+power = "2"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Snow White's Apple.png"
+name = "Snow White's Apple"
+class = "Land Tapper"
+power = "5"
 type = "Legendary Creature"
 subtype = "Abnormality"
 atk = "3"
-def = "8"
+def = "3"
 author = "Nia"
+
+[[card]]
+img = "Warm-Hearted Woodsman.png"
+name = "Warm-Hearted Woodsman"
+class = "Land Tapper"
+power = "4"
+type = "Creature"
+subtype = "Abnormality"
+atk = "7"
+def = "5"
+author = "Nia"
+
+[[card]]
+img = "Wasteland_Scavenger.png"
+name = "Wasteland Scavenger"
+type = "Creature"
+subtype = "Human Scavenger"
+class = "Land Tapper"
+power = "2"
+atk = "2"
+def = "2"
+author = "Gibby"
+
+[[card]]
+img = "All-Around Helper.png"
+name = "All-Around Helper"
+class = "Creature Butcher"
+power = "3"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Behemoth.png"
+name = "Behemoth"
+class = "Creature Butcher"
+power = "X"
+type = "Creature"
+subtype = "Zombie"
+atk = "X"
+def = "X"
+author = "Obe"
 
 [[card]]
 img = "Bullet Shower.png"
@@ -194,18 +244,126 @@ type = "Sorcery"
 author = "Nia"
 
 [[card]]
+img = "Hollow Point Fury.png"
+name = "Hollow Point Fury"
+class = "Creature Butcher"
+power = "5"
+type = "Legendary Sorcery"
+author = "Nia"
+
+[[card]]
+img = "Nameless Fetus.png"
+name = "Nameless Fetus"
+class = "Creature Butcher"
+power = "3"
+type = "Creature"
+subtype = "Abnormality"
+atk = "3"
+def = "3"
+author = "Nia"
+
+[[card]]
+img = "Punishing Bird.png"
+name = "Punishing Bird"
+class = "Creature Butcher"
+power = "1"
+type = "Creature"
+subtype = "Abnormality"
+atk = "1"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Recharge.png"
+name = "Recharge"
+class = "Creature Butcher"
+type = "Sorcery"
+power = "0"
+author = "Nia"
+
+[[card]]
+img = "Red's Mark.png"
+name = "Red's Mark"
+class = "Creature Butcher"
+power = "2"
+type = "Enchantment"
+author = "Nia"
+
+[[card]]
+img = "Singing Machine.png"
+name = "Singing Machine"
+class = "Creature Butcher"
+power = "3"
+type = "Creature"
+subtype = "Abnormality Structure"
+atk = "0"
+def = "4"
+author = "Nia"
+
+[[card]]
+img = "Spider Bud.png"
+name = "Spider Bud"
+class = "Creature Butcher"
+power = "2"
+type = "Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "2"
+author = "Nia"
+
+[[card]]
+img = "Spiderling_Meal.png"
+name = "Spiderling Meal"
+type = "Sorcery"
+class = "Creature Butcher"
+power = "1"
+author = "Nia"
+
+[[card]]
+img = "The Mountain of Smiling Bodies.png"
+name = "The Mountain of Smiling Bodies"
+class = "Creature Butcher"
+power = "8"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "5"
+def = "5"
+author = "Nia"
+
+[[card]]
+img = "dotdotdot.png"
+name = "..."
+type = "Instant"
+power = "5"
+author = "Nick"
+
+[[card]]
+img = "1.76 MHz.png"
+name = "1.76 MHz"
+power = "2"
+type = "Environment"
+subtype = "Abnormality"
+author = "Nia"
+
+[[card]]
+img = "Attachment Work.png"
+name = "Attachment Work"
+power = "2"
+type = "Instant"
+author = "Nia"
+
+[[card]]
+img = "Biden Blast.png"
+name = "Biden Blast"
+type = "Instant"
+power = "2"
+author = "Cat"
+
+[[card]]
 img = "Containment Unit.png"
 name = "Containment Unit"
 power = "3"
 type = "Environment"
-author = "Nia"
-
-[[card]]
-img = "Cycle of the Curse.png"
-name = "Cycle of the Curse"
-class = "Mana Ramper"
-power = "3"
-type = "Enchantment"
 author = "Nia"
 
 [[card]]
@@ -259,12 +417,11 @@ def = "5"
 author = "Nia"
 
 [[card]]
-img = "Frozen Duel.png"
-name = "Frozen Duel"
-class = "Mana Ramper"
-power = "1"
-type = "Sorcery"
-author = "Nia"
+img = "Green_Brew.png"
+name = "Green Brew"
+type = "Instant"
+power = "3"
+author = "Nick"
 
 [[card]]
 img = "Happy Teddy Bear.png"
@@ -277,11 +434,10 @@ def = "3"
 author = "Nia"
 
 [[card]]
-img = "Hollow Point Fury.png"
-name = "Hollow Point Fury"
-class = "Creature Butcher"
-power = "5"
-type = "Legendary Sorcery"
+img = "Insight Work.png"
+name = "Insight Work"
+power = "2"
+type = "Instant"
 author = "Nia"
 
 [[card]]
@@ -292,61 +448,12 @@ type = "Instant"
 author = "Nia"
 
 [[card]]
-img = "Judgement Bird.png"
-name = "Judgement Bird"
-class = "Mana Ramper"
-power = "5"
-type = "Creature"
-subtype = "Abnormality"
-atk = "2"
-def = "3"
-author = "Nia"
-
-[[card]]
-img = "Lay the Bait.png"
-name = "Lay the Bait"
-class = "Land Tapper"
-power = "2"
-type = "Sorcery"
-author = "Nia"
-
-[[card]]
-img = "Magic Bullet.png"
-name = "Magic Bullet"
-class = "Mana Ramper"
-power = "1"
-type = "Legendary Sorcery"
-author = "Nia"
-
-[[card]]
 img = "Mark.png"
 name = "Mark"
 power = "2"
 type = "Creature"
 subtype = "Guy"
 atk = "2"
-def = "3"
-author = "Nia"
-
-[[card]]
-img = "Meat Lantern.png"
-name = "Meat Lantern"
-class = "Land Tapper"
-power = "3"
-type = "Creature"
-subtype = "Abnormality"
-atk = "7"
-def = "1"
-author = "Nia"
-
-[[card]]
-img = "Nameless Fetus.png"
-name = "Nameless Fetus"
-class = "Creature Butcher"
-power = "3"
-type = "Creature"
-subtype = "Abnormality"
-atk = "3"
 def = "3"
 author = "Nia"
 
@@ -361,22 +468,13 @@ def = "2"
 author = "Nia"
 
 [[card]]
-img = "Primal Instincts.png"
-name = "Primal Instincts"
-class = "Land Tapper"
-power = "4"
-type = "Legendary Sorcery"
-author = "Nia"
-
-[[card]]
-img = "Punishing Bird.png"
-name = "Punishing Bird"
-class = "Creature Butcher"
-power = "1"
+img = "Opened_Can_of_WellCheers.png"
+name = "Opened Can of WellCheers"
 type = "Creature"
 subtype = "Abnormality"
-atk = "1"
-def = "1"
+power = "1"
+atk = "0"
+def = "2"
 author = "Nia"
 
 [[card]]
@@ -384,25 +482,6 @@ img = "Rabbit Protocol.png"
 name = "Rabbit Protocol"
 power = "4"
 type = "Sorcery"
-author = "Nia"
-
-[[card]]
-img = "Red Shoes.png"
-name = "Red Shoes"
-class = "Mana Ramper"
-power = "4"
-type = "Creature"
-subtype = "Abnormality"
-atk = "0"
-def = "2"
-author = "Nia"
-
-[[card]]
-img = "Red's Mark.png"
-name = "Red's Mark"
-class = "Creature Butcher"
-power = "2"
-type = "Enchantment"
 author = "Nia"
 
 [[card]]
@@ -420,88 +499,13 @@ type = "Instant"
 author = "Nia"
 
 [[card]]
-img = "Scorched Girl.png"
-name = "Scorched Girl"
-class = "Land Tapper"
-power = "2"
+img = "Standard_Training-Dummy_Rabbit.png"
+name = "Stadard Training-Dummy Rabbit"
 type = "Creature"
 subtype = "Abnormality"
+power = "1"
 atk = "2"
 def = "1"
-author = "Nia"
-
-[[card]]
-img = "Self-loathing.png"
-name = "Self-loathing"
-class = "Mana Ramper"
-power = "3"
-type = "Sorcery"
-author = "Nia"
-
-[[card]]
-img = "Singing Machine.png"
-name = "Singing Machine"
-class = "Creature Butcher"
-power = "3"
-type = "Creature"
-subtype = "Abnormality Structure"
-atk = "0"
-def = "4"
-author = "Nia"
-
-[[card]]
-img = "Snow White's Apple.png"
-name = "Snow White's Apple"
-class = "Land Tapper"
-power = "5"
-type = "Legendary Creature"
-subtype = "Abnormality"
-atk = "3"
-def = "3"
-author = "Nia"
-
-[[card]]
-img = "Spider Bud.png"
-name = "Spider Bud"
-class = "Creature Butcher"
-power = "2"
-type = "Creature"
-subtype = "Abnormality"
-atk = "0"
-def = "2"
-author = "Nia"
-
-[[card]]
-img = "The Lady Facing the Wall.png"
-name = "The Lady Facing the Wall"
-class = "Mana Ramper"
-power = "2"
-type = "Creature"
-subtype = "Abnormality"
-atk = "1"
-def = "3"
-author = "Nia"
-
-[[card]]
-img = "The Mountain of Smiling Bodies.png"
-name = "The Mountain of Smiling Bodies"
-class = "Creature Butcher"
-power = "8"
-type = "Legendary Creature"
-subtype = "Abnormality"
-atk = "5"
-def = "5"
-author = "Nia"
-
-[[card]]
-img = "The Snow Queen.png"
-name = "The Snow Queen"
-class = "Mana Ramper"
-power = "4"
-type = "Creature"
-subtype = "Abnormality"
-atk = "2"
-def = "5"
 author = "Nia"
 
 [[card]]
@@ -513,12 +517,8 @@ subtype = "Abnormality"
 author = "Nia"
 
 [[card]]
-img = "Warm-Hearted Woodsman.png"
-name = "Warm-Hearted Woodsman"
-class = "Land Tapper"
-power = "4"
-type = "Creature"
-subtype = "Abnormality"
-atk = "7"
-def = "5"
-author = "Nia"
+img = "Whirlwind.png"
+name = "Whirlwind"
+power = "3"
+type = "Sorcery"
+author = "Gibby"
