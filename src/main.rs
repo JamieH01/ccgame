@@ -94,8 +94,9 @@ fn main() {
                 fs::write(format!("./sets/{lower}.html"), html).unwrap();
             }
 
-
-            index.push_str(&format!("<p><a href=\"./cards/{i}.html\">{}</a></p>\n", card.name));
+            if !card.hidden {
+                index.push_str(&format!("<p><a href=\"./cards/{i}.html\">{}</a></p>\n", card.name));
+            }
 
         }
         
@@ -120,6 +121,7 @@ struct CardEntry {
     pub class: Option<String>,
     pub author: Option<String>,
     pub families: Vec<String>,
+    pub hidden: bool,
 }
 
 impl TryFrom<&Map<String, Value>> for CardEntry {
@@ -135,6 +137,11 @@ impl TryFrom<&Map<String, Value>> for CardEntry {
         let def = value.get_str("def"); 
         let class = value.get_str("class"); 
         let author = value.get_str("author"); 
+        let hidden = match value.get("hidden").unwrap_or(&Value::Boolean(false)) {
+            Value::Boolean(b) => *b,
+            _ => false,
+        };
+
 
         let families = match value.get("family") {
             Some(Value::Array(v)) => v.into_iter()
@@ -145,7 +152,7 @@ impl TryFrom<&Map<String, Value>> for CardEntry {
             None => vec![],
         };
 
-        Ok(Self { name, img, ctype, subtype, power, atk, def, class, author, families })
+        Ok(Self { name, img, ctype, subtype, power, atk, def, class, author, families, hidden })
     }
 }
 
