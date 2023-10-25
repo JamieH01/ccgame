@@ -88,6 +88,7 @@ struct CardEntry {
     pub def: Option<String>,
     pub class: Option<String>,
     pub author: Option<String>,
+    pub families: Vec<String>,
 }
 
 impl TryFrom<&Map<String, Value>> for CardEntry {
@@ -103,7 +104,17 @@ impl TryFrom<&Map<String, Value>> for CardEntry {
         let def = value.get_str("def"); 
         let class = value.get_str("class"); 
         let author = value.get_str("author"); 
-        Ok(Self { name, img, ctype, subtype, power, atk, def, class, author })
+
+        let families = match value.get("family") {
+            Some(Value::Array(v)) => v.into_iter()
+                .filter_map(|e| if let Value::String(s) = e {Some(s.clone())} else {None}) 
+                .collect(),
+            Some(Value::String(s)) => vec![s.clone()], 
+            Some(_) => vec![],
+            None => vec![],
+        };
+
+        Ok(Self { name, img, ctype, subtype, power, atk, def, class, author, families })
     }
 }
 
