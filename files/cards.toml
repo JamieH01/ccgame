@@ -10,6 +10,14 @@ def = "1"
 author = "Nia"
 
 [[card]]
+img = "Blessing_of_Despair.png"
+name = "Blessing of Despair"
+class = "Mana Ramper"
+power = "2"
+type = "Enchantment"
+author = "Cat"
+
+[[card]]
 img = "Blue Star.png"
 name = "Blue Star"
 class = "Mana Ramper"
@@ -21,11 +29,30 @@ def = "8"
 author = "Nia"
 
 [[card]]
+img = "Caught_a_Big_One.png"
+name = "Caught a Big One"
+class = "Mana Ramper"
+power = "1"
+type = "Instant"
+author = "Cat"
+
+[[card]]
 img = "Cycle of the Curse.png"
 name = "Cycle of the Curse"
 class = "Mana Ramper"
 power = "3"
 type = "Enchantment"
+author = "Nia"
+
+[[card]]
+img = "Dreaming Current.png"
+name = "Dreaming Current"
+class = "Mana Ramper"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "4"
+def = "3"
 author = "Nia"
 
 [[card]]
@@ -48,12 +75,31 @@ def = "3"
 author = "Nia"
 
 [[card]]
+img = "Knight_of_Despair.png"
+name = "Knight of Despair"
+class = "Mana Ramper"
+power = "6"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "5"
+author = "Cat"
+
+[[card]]
 img = "Magic Bullet.png"
 name = "Magic Bullet"
 class = "Mana Ramper"
 power = "1"
 type = "Legendary Sorcery"
 author = "Nia"
+
+[[card]]
+img = "Mass_Reproduction.png"
+name = "Mass Reproduction"
+class = "Mana Ramper"
+power = "6"
+type = "Legendary Sorcery"
+author = "Cat"
 
 [[card]]
 img = "Old_Lady.png"
@@ -67,6 +113,14 @@ def = "4"
 author = "Nia"
 
 [[card]]
+img = "Rainbow Sea.png"
+name = "Rainbow Sea"
+class = "Mana Ramper"
+power = "4"
+type = "Environment"
+author = "Nia"
+
+[[card]]
 img = "Red Shoes.png"
 name = "Red Shoes"
 class = "Mana Ramper"
@@ -76,6 +130,17 @@ subtype = "Abnormality"
 atk = "0"
 def = "2"
 author = "Nia"
+
+[[card]]
+img = "Scourge_of_the_Deep.png"
+name = "Scourge of the Deep"
+class = "Mana Ramper"
+power = "6"
+type = "Creature"
+subtype = "Monster"
+atk = "5"
+def = "5"
+author = "Cat"
 
 [[card]]
 img = "Self-loathing.png"
@@ -119,6 +184,96 @@ def = "5"
 author = "Nia"
 
 [[card]]
+img = "Biofuel.png"
+name = "Biofuel"
+class = "Land Tapper"
+power = "0"
+type = "Creature"
+subtype = "Plant"
+atk = "0"
+def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Black Snake.png"
+name = "Black Snake"
+class = "Land Tapper"
+power = "1"
+type = "Creature"
+subtype = "Snake"
+atk = "1"
+def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Bluebird.png"
+name = "Bluebird"
+class = "Land Tapper"
+power = "1"
+type = "Creature"
+subtype = "Bird"
+atk = "1"
+def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Cow.png"
+name = "Cow"
+class = "Land Tapper"
+power = "2"
+type = "Creature"
+subtype = "Cow"
+atk = "1"
+def = "2"
+author = "Gibby"
+
+[[card]]
+img = "Deforestation.png"
+name = "Deforestation"
+class = "Land Tapper"
+power = "5"
+type = "Legendary Sorcery"
+author = "Gibby"
+
+[[card]]
+img = "Dogfight.png"
+name = "Dogfight"
+class = "Land Tapper"
+power = "3"
+type = "Sorcery"
+author = "Gibby"
+
+[[card]]
+img = "Earthquake.png"
+name = "Earthquake"
+class = "Land Tapper"
+power = "X2"
+type = "Sorcery"
+author = "Gibby"
+
+[[card]]
+img = "Elvish Thief.png"
+name = "Elvish Thief"
+class = "Land Tapper"
+power = "1"
+type = "Creature"
+subtype = "Elf Rogue"
+atk = "1"
+def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Feral Beast.png"
+name = "Feral Beast"
+class = "Land Tapper"
+power = "6"
+type = "Creature"
+subtype = "Werewolf"
+atk = "5"
+def = "3"
+author = "Gibby"
+
+[[card]]
 img = "Footfalls.png"
 name = "Footfalls"
 class = "Land Tapper"
@@ -127,12 +282,67 @@ power = "2"
 author = "Nia"
 
 [[card]]
+img = "Forest Defense.png"
+name = "Forest Defense"
+class = "Land Tapper"
+power = "3"
+type = "Instant"
+author = "Gibby"
+
+[[card]]
+img = "Gentle Giant.png"
+name = "Gentle Giant"
+class = "Land Tapper"
+power = "6"
+type = "Creature"
+subtype = "Giant"
+atk = "5"
+def = "6"
+author = "Gibby"
+
+[[card]]
+img = "Goodberry Tree.png"
+name = "Goodberry Tree"
+class = "Land Tapper"
+power = "1"
+type = "Sorcery"
+author = "Gibby"
+
+[[card]]
+img = "Grizzly Bear.png"
+name = "Grizzly Bear"
+class = "Land Tapper"
+power = "4"
+type = "Creature"
+subtype = "Bear"
+atk = "3"
+def = "3"
+author = "Gibby"
+
+[[card]]
+img = "Hit and Run.png"
+name = "Hit and Run"
+class = "Land Tapper"
+power = "2"
+type = "Instant"
+author = "Gibby"
+
+[[card]]
 img = "Lay the Bait.png"
 name = "Lay the Bait"
 class = "Land Tapper"
 power = "2"
 type = "Sorcery"
 author = "Nia"
+
+[[card]]
+img = "Manifest Destiny.png"
+name = "Manifest Destiny"
+class = "Land Tapper"
+power = "4"
+type = "Sorcery"
+subtype = "Nature Expanse"
+author = "Gibby"
 
 [[card]]
 img = "Meat Lantern.png"
@@ -146,6 +356,63 @@ def = "1"
 author = "Nia"
 
 [[card]]
+img = "Mother Spider.png"
+name = "Mother Spider"
+class = "Land Ramper"
+power = "3"
+type = "Creature"
+subtype = "Spider"
+atk = "2"
+def = "5"
+author = "Gibby"
+
+[[card]]
+img = "Naturalization.png"
+name = "Naturalization"
+class = "Land Tapper"
+power = "2"
+type = "Instant"
+author = "Gibby"
+
+[[card]]
+img = "Nature's First Child.png"
+name = "Nature's First Child"
+class = "Land Tapper"
+power = "8"
+type = "Legendary Creature"
+subtype = "Nature Elemental"
+atk = "X"
+def = "6"
+author = "Gibby"
+
+[[card]]
+img = "Nature's Seal.png"
+name = "Nature's Seal"
+class = "Land Tapper"
+power = "3"
+type = "Instant"
+author = "Gibby"
+
+[[card]]
+img = "Nature's Sprout.png"
+name = "Nature's Sprout"
+class = "Land Tapper"
+power = "1"
+type = "Sorcery"
+author = "Gibby"
+
+[[card]]
+img = "Nighthawk.png"
+name = "Nighthawk"
+class = "Land Tapper"
+power = "3"
+type = "Creature"
+subtype = "Bird"
+atk = "2"
+def = "2"
+author = "Gibby"
+
+[[card]]
 img = "Nostalgic_Embrace.png"
 name = "Nostalgic Embrace"
 class = "Land Tapper"
@@ -154,12 +421,58 @@ power = "2"
 author = "Nia"
 
 [[card]]
+img = "One With Nature.png"
+name = "One With Nature"
+class = "Land Tapper"
+power = "9"
+type = "Sorcery"
+author = "Gibby"
+
+[[card]]
 img = "Primal Instincts.png"
 name = "Primal Instincts"
 class = "Land Tapper"
 power = "4"
 type = "Legendary Sorcery"
 author = "Nia"
+
+[[card]]
+img = "Rampaging Rex.png"
+name = "Rampaging Rex"
+class = "Land Tapper"
+power = "12"
+type = "Legendary Creature"
+subtype = "Dinosaur"
+atk = "10"
+def = "10"
+author = "Gibby"
+
+[[card]]
+img = "Revitalize.png"
+name = "Revitalize"
+class = "Land Tapper"
+power = "2"
+type = "Instant"
+author = "Gibby"
+
+[[card]]
+img = "Rohul, Divine Beast.png"
+name = "Rohul, Divine Beast"
+class = "Land Tapper"
+power = "6"
+type = "Legendary Creature"
+subtype = "Divine Wolf"
+atk = "4"
+def = "4"
+author = "Gibby"
+
+[[card]]
+img = "Scavenge.png"
+name = "Scavenge"
+class = "Land Tapper"
+power = "1"
+type = "Instant"
+author = "Gibby"
 
 [[card]]
 img = "Scorched Girl.png"
@@ -173,6 +486,17 @@ def = "1"
 author = "Nia"
 
 [[card]]
+img = "Sh'rah, Druid Soothsayer.png"
+name = "Sh'rah, Druid Soothsayer"
+class = "Land Tapper"
+power = "5"
+type = "Legendary Creature"
+subtype = "Druid Shaman"
+atk = "3"
+def = "3"
+author = "Gibby"
+
+[[card]]
 img = "Snow White's Apple.png"
 name = "Snow White's Apple"
 class = "Land Tapper"
@@ -182,6 +506,24 @@ subtype = "Abnormality"
 atk = "3"
 def = "3"
 author = "Nia"
+
+[[card]]
+img = "Stupid_Andrew.png"
+name = "Stupid Andrew"
+class = "Land Tapper"
+power = "7"
+type = "Creature"
+atk = "10"
+def = "10"
+author = "Nick"
+
+[[card]]
+img = "The Promised Land.png"
+name = "The Promised Land"
+class = "Land Tapper"
+power = "12"
+type = "Legendary Land"
+author = "Gibby"
 
 [[card]]
 img = "Warm-Hearted Woodsman.png"
@@ -195,6 +537,28 @@ def = "5"
 author = "Nia"
 
 [[card]]
+img = "Village Medic.png"
+name = "Village Medic"
+class = "Land Tapper"
+power = "5"
+type = "Creature"
+subtype = "Human Doctor"
+atk = "2"
+def = "3"
+author = "Gibby"
+
+[[card]]
+img = "Village Shaman.png"
+name = "Village Shaman"
+class = "Land Tapper"
+power = "7"
+type = "Legendary Creature"
+subtype = "Owl Shaman"
+atk = "3"
+def = "5"
+author = "Gibby"
+
+[[card]]
 img = "Wasteland_Scavenger.png"
 name = "Wasteland Scavenger"
 type = "Creature"
@@ -203,6 +567,17 @@ class = "Land Tapper"
 power = "2"
 atk = "2"
 def = "2"
+author = "Gibby"
+
+[[card]]
+img = "White Snake.png"
+name = "White Snake"
+class = "Land Tapper"
+power = "1"
+type = "Creature"
+subtype = "Snake"
+atk = "1"
+def = "1"
 author = "Gibby"
 
 [[card]]
@@ -244,12 +619,49 @@ type = "Sorcery"
 author = "Nia"
 
 [[card]]
+img = "Feast.png"
+name = "Feast"
+class = "Creature Butcher"
+power = "4"
+type = "Sorcery"
+author = "Cat"
+
+[[card]]
 img = "Hollow Point Fury.png"
 name = "Hollow Point Fury"
 class = "Creature Butcher"
 power = "5"
 type = "Legendary Sorcery"
 author = "Nia"
+
+[[card]]
+img = "Infected Skeleton.png"
+name = "Infected Skeleton"
+class = "Creature Butcher"
+power = "1"
+type = "Creature"
+subtype = "Skeleton"
+atk = "2"
+def = "1"
+author = "Obe"
+
+[[card]]
+img = "Infestation.png"
+name = "Infestation"
+class = "Creature Butcher"
+power = "2"
+type = "Sorcery"
+author = "Obe"
+
+[[card]]
+img = "Master Baiter.png"
+name = "Master Baiter"
+class = "Creature Butcher"
+power = "8"
+type = "Legendary Creature"
+atk = "0"
+def = "4"
+author = "Obe"
 
 [[card]]
 img = "Nameless Fetus.png"
@@ -263,6 +675,25 @@ def = "3"
 author = "Nia"
 
 [[card]]
+img = "Persistent Bones.png"
+name = "Persistent Bones"
+class = "Creature Butcher"
+power = "2"
+type = "Creature"
+subtype = "Skeleton"
+atk = "2"
+def = "2"
+author = "Obe"
+
+[[card]]
+img = "Power In Numbers.png"
+name = "Power In Numbers"
+class = "Creature Butcher"
+power = "3"
+type = "Sorcery"
+author = "Obe"
+
+[[card]]
 img = "Punishing Bird.png"
 name = "Punishing Bird"
 class = "Creature Butcher"
@@ -272,6 +703,28 @@ subtype = "Abnormality"
 atk = "1"
 def = "1"
 author = "Nia"
+
+[[card]]
+img = "Queen Bee.png"
+name = "Queen Bee"
+class = "Creature Butcher"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "5"
+author = "Nia"
+
+[[card]]
+img = "Rat King.png"
+name = "Rat King"
+class = "Creature Butcher"
+power = "3"
+type = "Creature"
+subtype = "Rat"
+atk = "1"
+def = "1"
+author = "Obe"
 
 [[card]]
 img = "Recharge.png"
@@ -288,6 +741,17 @@ class = "Creature Butcher"
 power = "2"
 type = "Enchantment"
 author = "Nia"
+
+[[card]]
+img = "Sentient Mass.png"
+name = "Sentient Mass"
+class = "Creature Butcher"
+power = "5"
+type = "Creature"
+subtype = "Zombie"
+atk = "5"
+def = "5"
+author = "Obe"
 
 [[card]]
 img = "Singing Machine.png"
@@ -320,6 +784,22 @@ power = "1"
 author = "Nia"
 
 [[card]]
+img = "Steep Price.png"
+name = "Steep Price"
+class = "Creature Butcher"
+power = "3"
+type = "Sorcery"
+author = "Obe"
+
+[[card]]
+img = "The Grinder.png"
+name = "The Grinder"
+class = "Creature Butcher"
+power = "0"
+type = "Instant"
+author = "Obe"
+
+[[card]]
 img = "The Mountain of Smiling Bodies.png"
 name = "The Mountain of Smiling Bodies"
 class = "Creature Butcher"
@@ -329,6 +809,13 @@ subtype = "Abnormality"
 atk = "5"
 def = "5"
 author = "Nia"
+
+[[card]]
+img = "dotdotdotGoblin.png"
+name = "...Goblin?"
+power = "5"
+type = "Instant"
+author = "Nick"
 
 [[card]]
 img = "dotdotdot.png"
@@ -358,6 +845,16 @@ name = "Biden Blast"
 type = "Instant"
 power = "2"
 author = "Cat"
+
+[[card]]
+img = "Cave Spider.png"
+name = "Cave Spider"
+power = "1"
+type = "Creature"
+subtype = "Spider"
+atk = "1"
+def = "1"
+author = "Gibby"
 
 [[card]]
 img = "Containment Unit.png"
@@ -417,11 +914,62 @@ def = "5"
 author = "Nia"
 
 [[card]]
+img = "Goblin Bombardier.png"
+name = "Goblin Bombardier"
+power = "4"
+type = "Creature"
+atk = "3"
+def = "2"
+author = "Nick"
+
+[[card]]
+img = "Goblin Crackhead.png"
+name = "Goblin Crackhead"
+power = "7"
+type = "Creature"
+atk = "5"
+def = "5"
+author = "Nick"
+
+[[card]]
+img = "Goblin Hut.png"
+name = "Goblin Hut"
+power = "3"
+type = "Creature"
+subtype = "Structure"
+atk = "0"
+def = "3"
+author = "Nick"
+
+[[card]]
+img = "Goblin.png"
+name = "Goblin"
+power = "1"
+type = "Creature"
+atk = "1"
+def = "1"
+author = "Nick"
+
+[[card]]
+img = "Goblin's Za.png"
+name = "Goblin's Za"
+power = "4"
+type = "Instant"
+author = "Nick"
+
+[[card]]
 img = "Green_Brew.png"
 name = "Green Brew"
 type = "Instant"
 power = "3"
 author = "Nick"
+
+[[card]]
+img = "Gust of Wind.png"
+name = "Gust of Wind"
+power = "1"
+type = "Sorcery"
+author = "Gibby"
 
 [[card]]
 img = "Happy Teddy Bear.png"
@@ -431,6 +979,15 @@ type = "Creature"
 subtype = "Abnormality"
 atk = "4"
 def = "3"
+author = "Nia"
+
+[[card]]
+img = "Head of the Forbidden One.png"
+name = "Head of the Forbidden One"
+power = "5"
+type = "Legendary Creature"
+atk = "0"
+def = "2"
 author = "Nia"
 
 [[card]]
@@ -448,6 +1005,24 @@ type = "Instant"
 author = "Nia"
 
 [[card]]
+img = "Left Arm of the Forbidden One.png"
+name = "Left Arm of the Forbidden One"
+power = "3"
+type = "Creature"
+atk = "0"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Left Leg of the Forbidden One.png"
+name = "Left Leg of the Forbidden One"
+power = "2"
+type = "Creature"
+atk = "0"
+def = "1"
+author = "Nia"
+
+[[card]]
 img = "Mark.png"
 name = "Mark"
 power = "2"
@@ -456,6 +1031,22 @@ subtype = "Guy"
 atk = "2"
 def = "3"
 author = "Nia"
+
+[[card]]
+img = "Mirror Image.png"
+name = "Mirror Image"
+power = "5"
+type = "Creature"
+atk = "0"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Misty Step.png"
+name = "Misty Step"
+power = "2"
+type = "Instant"
+author = "Gibby"
 
 [[card]]
 img = "One Sin and 100s of Good Deeds.png"
@@ -485,6 +1076,15 @@ type = "Sorcery"
 author = "Nia"
 
 [[card]]
+img = "Rallying Banneret.png"
+name = "Rallying Banneret"
+power = "2"
+type = "Creature"
+atk = "1"
+def = "3"
+author = "Nia"
+
+[[card]]
 img = "Re-Extraction.png"
 name = "Re-Extraction"
 power = "1"
@@ -499,6 +1099,24 @@ type = "Instant"
 author = "Nia"
 
 [[card]]
+img = "Right Arm of the Forbidden One.png"
+name = "Right Arm of the Forbidden One"
+power = "3"
+type = "Creature"
+atk = "0"
+def = "1"
+author = "Nia"
+
+[[card]]
+img = "Right Leg of the Forbidden One.png"
+name = "Right Leg of the Forbidden One"
+power = "2"
+type = "Creature"
+atk = "0"
+def = "1"
+author = "Nia"
+
+[[card]]
 img = "Standard_Training-Dummy_Rabbit.png"
 name = "Stadard Training-Dummy Rabbit"
 type = "Creature"
@@ -509,12 +1127,28 @@ def = "1"
 author = "Nia"
 
 [[card]]
+img = "The Gobbin' Bomb.png"
+name = "The Gobbin' Bomb"
+power = "3"
+type = "Environment"
+author = "Nick"
+
+[[card]]
 img = "Theresia.png"
 name = "Theresia"
 power = "2"
 type = "Equipment"
 subtype = "Abnormality"
 author = "Nia"
+
+[[card]]
+img = "Totally a Goblin.png"
+name = "Totally a Goblin"
+power = "2"
+type = "Creature"
+atk = "0"
+def = "3"
+author = "Nick"
 
 [[card]]
 img = "Whirlwind.png"
