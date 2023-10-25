@@ -111,3 +111,9 @@ type = "Instant"
 power = "2"
 author = "Cat"
 
+[[card]]
+img = "Insight Work.png"
+name = "Insight Work"
+power = "2"
+type = "Instant"
+author = "Nia"
