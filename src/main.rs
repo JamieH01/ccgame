@@ -1,4 +1,4 @@
-use std::fs;
+use std::{fs, collections::HashMap};
 
 use toml::{Table, value::*, Value, map::Map};
 
@@ -23,6 +23,8 @@ fn main() {
     //be a script that just generates all the html files
     let mut index = INDEX_START.to_owned(); 
 
+    let mut sets: HashMap<String, Vec<usize>> = HashMap::new();
+
     let table = fs::read_to_string("./files/cards.toml").unwrap().parse::<Table>().unwrap();
     let elem = table.iter().next().unwrap().1;
     if let Value::Array(cards) = elem {
@@ -34,7 +36,7 @@ fn main() {
         .collect();
 
 
-        for (i, card) in list.into_iter().enumerate() {
+        for (i, card) in list.clone().into_iter().enumerate() {
             let mut card_page = CARD_START.replace("${0}", &card.name);
             card_page.push_str(&format!("<img src={}>", card.img));
             card_page.push_str(&format!("<p>type: {}</p>", card.ctype));
@@ -62,11 +64,39 @@ fn main() {
                 card_page.push_str(&format!("author: {v}</p>"))
             }
 
+            if card.families.len() > 0 {
+                card_page.push_str("<h2>Card Families</h2>");
+                for set in &card.families {
+                    match sets.get_mut(set) {
+                        Some(v) => v.push(i),
+                        None => {sets.insert(set.clone(), vec![i]);},
+                    }
+                    
+                    let lower = set.to_lowercase().replace(' ', "_");
+                    card_page.push_str(
+                        &format!("<p><a href=\"../sets/{lower}.html\">{set}</a></p>\n")
+                        )
+                     
+                }
+            }
+
             card_page.push_str(INDEX_END);
             fs::write(format!("./cards/{i}.html"), card_page).unwrap();
 
             //<p><a href="thing">thing</a></p>
+ 
+            for (name, cards) in &sets {
+                let lower = name.to_lowercase().replace(' ', "_");        
+                let mut html = String::from(format!("<p><h1>{name} Set<h1><p>"));
+                for e in cards {
+                    html.push_str(&format!("<p><a href=\"../cards/{e}.html\">{}</a></p>\n", list[*e].name)); 
+                }
+                fs::write(format!("./sets/{lower}.html"), html).unwrap();
+            }
+
+
             index.push_str(&format!("<p><a href=\"./cards/{i}.html\">{}</a></p>\n", card.name));
+
         }
         
 
@@ -74,10 +104,11 @@ fn main() {
 
     index.push_str(INDEX_END);
     fs::write("./index.html", index).unwrap();
+
 }
 
 //this actually is useful
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct CardEntry {
     pub name: String,
     pub img: String,

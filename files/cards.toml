@@ -375,6 +375,7 @@ subtype = "Nugget"
 atk = "1"
 def = "1"
 author = "Nia"
+family = "Employee"
 
 [[card]]
 img = "Employee - Level 2.png"
@@ -385,6 +386,7 @@ subtype = "Nugget"
 atk = "2"
 def = "2"
 author = "Nia"
+family = "Employee"
 
 [[card]]
 img = "Employee - Level 3.png"
@@ -395,6 +397,7 @@ subtype = "Nugget"
 atk = "3"
 def = "3"
 author = "Nia"
+family = "Employee"
 
 [[card]]
 img = "Employee - Level 4.png"
@@ -405,6 +408,7 @@ subtype = "Nugget"
 atk = "4"
 def = "4"
 author = "Nia"
+family = "Employee"
 
 [[card]]
 img = "Employee - Level 5.png"
@@ -415,6 +419,7 @@ subtype = "Nugget"
 atk = "5"
 def = "5"
 author = "Nia"
+family = "Employee"
 
 [[card]]
 img = "Green_Brew.png"
