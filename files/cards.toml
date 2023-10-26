@@ -85,10 +85,10 @@ family = "Knight of Despair"
 author = "Cat"
 
 [[card]]
-img = "Knight_of_Despair.png"
-name = "Knight of Despair"
+img = "Magical Girl of Justice.png"
+name = "Magical Girl of Justice
 class = "Mana Ramper"
-power = "6"
+power = "5"
 type = "Legendary Creature"
 subtype = "Abnormality"
 atk = "2"
@@ -190,6 +190,19 @@ class = "Mana Ramper"
 type = "Creature"
 atk = "3"
 def = "1"
+family = "Knight of Despair"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Knight of Despair.png"
+name = "Knight of Despair"
+class = "Mana Ramper"
+power = "5"
+type = "Creature"
+subtype = "Abnormality"
+atk = "3"
+def = "6"
 family = "Knight of Despair"
 hidden = true
 author = "Cat"
