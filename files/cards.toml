@@ -73,6 +73,7 @@ type = "Creature"
 subtype = "Abnormality"
 atk = "2"
 def = "3"
+family = "Black Forest"
 author = "Nia"
 
 [[card]]
@@ -224,6 +225,7 @@ type = "Creature"
 subtype = "Abnormality"
 atk = "3"
 def = "5"
+family = "Black Forest"
 author = "Nia"
 
 [[card]]
@@ -232,6 +234,16 @@ name = "Biofuel Generator"
 class = "Land Tapper"
 power = "1"
 type = "Equipment"
+author = "Gibby"
+
+[[card]]
+img = "Biofuel Plant.png"
+name = "Biofuel Plant"
+class = "Land Tapper"
+power = "2"
+type = "Structure"
+atk = "0"
+def = "2"
 author = "Gibby"
 
 [[card]]
@@ -265,6 +277,14 @@ type = "Creature"
 subtype = "Bird"
 atk = "1"
 def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Composter.png"
+name = "Composter"
+class = "Land Tapper"
+power = "4"
+type = "Equipment"
 author = "Gibby"
 
 [[card]]
@@ -376,6 +396,16 @@ name = "Hit and Run"
 class = "Land Tapper"
 power = "2"
 type = "Instant"
+author = "Gibby"
+
+[[card]]
+img = "Incubator.png"
+name = "Incubator"
+class = "Land Tapper"
+power = "5"
+type = "Structure"
+atk = "0"
+def = "4"
 author = "Gibby"
 
 [[card]]
@@ -574,7 +604,7 @@ img = "The Promised Land.png"
 name = "The Promised Land"
 class = "Land Tapper"
 power = "12"
-type = "Legendary Land"
+type = "Legendary Enchantment"
 author = "Gibby"
 
 [[card]]
@@ -641,7 +671,7 @@ subtype = "Wolf"
 atk = "2"
 def = "2"
 family = "Rohul, Divine Beast"
-hidden = "true"
+hidden = true
 author = "Gibby"
 
 [[card]]
@@ -680,7 +710,16 @@ name = "Cocoon"
 class = "Creature Butcher"
 power = "X"
 type = "Sorcery"
+family = "Spiderling"
 author = "Nia"
+
+[[card]]
+img = "EGO Equipment - Smile.png"
+name = "EGO Equipment - Smile"
+class = "Creature Butcher"
+type = "Legendary Equipment"
+author = "Nia"
+
 
 [[card]]
 img = "Feast.png"
@@ -689,6 +728,17 @@ class = "Creature Butcher"
 power = "4"
 type = "Sorcery"
 author = "Cat"
+
+[[card]]
+img = "Fresh Ingredient.png"
+name = "Fresh Ingredient"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Guy"
+atk = "2"
+def = "3"
+family = "Skeleton"
+author = "Nia"
 
 [[card]]
 img = "Hollow Point Fury.png"
@@ -766,6 +816,7 @@ type = "Creature"
 subtype = "Abnormality"
 atk = "1"
 def = "1"
+family = "Black Forest"
 author = "Nia"
 
 [[card]]
@@ -777,6 +828,7 @@ type = "Legendary Creature"
 subtype = "Abnormality"
 atk = "0"
 def = "5"
+family = "Worker Bee"
 author = "Nia"
 
 [[card]]
@@ -837,6 +889,7 @@ type = "Creature"
 subtype = "Abnormality"
 atk = "0"
 def = "2"
+family = "Spiderling"
 author = "Nia"
 
 [[card]]
@@ -845,6 +898,7 @@ name = "Spiderling Meal"
 type = "Sorcery"
 class = "Creature Butcher"
 power = "1"
+family = "Spiderling"
 author = "Nia"
 
 [[card]]
@@ -873,6 +927,43 @@ subtype = "Abnormality"
 atk = "5"
 def = "5"
 author = "Nia"
+
+[[card]]
+img = "Skeleton.png"
+name = "Skeleton"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Skeleton"
+atk = "2"
+def = "2"
+family = "Skeleton"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Spiderling.png"
+name = "Spiderling"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Spiderling"
+atk = "0"
+def = "1"
+family = "Spiderling"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Worker Bee.png"
+name = "Worker Bee"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "1"
+family = "Worker Bee"
+hidden = true
+author = "Nia"
+
 
 [[card]]
 img = "dotdotdotGoblin.png"
@@ -983,6 +1074,14 @@ author = "Nia"
 family = "Employee"
 
 [[card]]
+img = "Entrance to the Black Forest.png"
+name = "Entrance to the Black Forest"
+power = "1"
+type = "Legendary Environment"
+family = "Black Forest"
+author = "Nia"
+
+[[card]]
 img = "Goblin Bombardier.png"
 name = "Goblin Bombardier"
 power = "4"
@@ -998,6 +1097,13 @@ power = "7"
 type = "Creature"
 atk = "5"
 def = "5"
+author = "Nick"
+
+[[card]]
+img = "Goblin Disguise Kit.png"
+name = "Goblin Disguise Kit"
+power = "4"
+type = "Equipment"
 author = "Nick"
 
 [[card]]
@@ -1251,6 +1357,13 @@ family = "Doki Doki Literature Club"
 author = "Cat"
 
 [[card]]
+img = "Spiked Shield.png"
+name = "Spiked Shield"
+power = "1"
+type = "Equipment"
+author = "Gibby"
+
+[[card]]
 img = "Standard_Training-Dummy_Rabbit.png"
 name = "Stadard Training-Dummy Rabbit"
 type = "Creature"
@@ -1259,6 +1372,14 @@ power = "1"
 atk = "2"
 def = "1"
 author = "Nia"
+
+[[card]]
+img = "Steel Shortsword.png"
+name = "Steel Shortsword"
+class = "Land Tapper"
+power = "1"
+type = "Equipment"
+author = "Gibby"
 
 [[card]]
 img = "The Gobbin' Bomb.png"
@@ -1357,3 +1478,55 @@ def = "8"
 family = "Doki Doki Literature Club"
 hidden = true
 author = "Cat"
+
+[[card]]
+img = "Apocalypse Bird.png"
+name = "Apocalypse Bird"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "10"
+def = "10"
+family = "Black Forest"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Big Eyes.png"
+name = "Big Eyes"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "5"
+family = "Black Forest"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Long Neck.png"
+name = "Long Neck"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "5"
+family = "Black Forest"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Small Beak.png"
+name = "Small Beak"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "5"
+family = "Black Forest"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "The Black Forest.png"
+name = "The Black Forest"
+type = "Legendary Environment"
+family = "Black Forest"
+hidden = true
+author = "Nia"
