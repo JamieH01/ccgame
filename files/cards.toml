@@ -499,6 +499,7 @@ type = "Legendary Creature"
 subtype = "Divine Wolf"
 atk = "4"
 def = "4"
+family = "Rohul, Divine Beast"
 author = "Gibby"
 
 [[card]]
@@ -613,6 +614,18 @@ type = "Creature"
 subtype = "Snake"
 atk = "1"
 def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Wolf.png"
+name = "Wolf"
+class = "Land Tapper"
+type = "Creature"
+subtype = "Wolf"
+atk = "2"
+def = "2"
+family = "Rohul, Divine Beast"
+hidden = "true"
 author = "Gibby"
 
 [[card]]
