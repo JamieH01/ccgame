@@ -1089,6 +1089,26 @@ type = "Instant"
 author = "Gibby"
 
 [[card]]
+img = "Monika.png"
+name = "Monika"
+power = "4"
+type = "Creature"
+atk = "4"
+def = "3"
+family = "Doki Doki Literature Club"
+author = "Cat"
+
+[[card]]
+img = "Natsuki.png"
+name = "Natsuki"
+power = "2"
+type = "Creature"
+atk = "1"
+def = "5"
+family = "Doki Doki Literature Club"
+author = "Cat"
+
+[[card]]
 img = "One Sin and 100s of Good Deeds.png"
 name = "One Sin and 100s of Good Deeds"
 power = "1"
@@ -1157,6 +1177,16 @@ def = "1"
 author = "Nia"
 
 [[card]]
+img = "Sayori.png"
+name = "Sayori"
+power = "3"
+type = "Creature"
+atk = "0"
+def = "6"
+family = "Doki Doki Literature Club"
+author = "Cat"
+
+[[card]]
 img = "Standard_Training-Dummy_Rabbit.png"
 name = "Stadard Training-Dummy Rabbit"
 type = "Creature"
@@ -1196,3 +1226,58 @@ name = "Whirlwind"
 power = "3"
 type = "Sorcery"
 author = "Gibby"
+
+[[card]]
+img = "Yuri.png"
+name = "Yuri"
+power = "5"
+type = "Creature"
+atk = "2"
+def = "8"
+family = "Doki Doki Literature Club"
+author = "Cat"
+
+[[card]]
+img = "Monika, World Administrator.png"
+name = "Monika, World Administrator"
+power = "10"
+type = "Creature"
+subtype = "Monika"
+atk = "10"
+def = "10"
+family = "Doki Doki Literature Club"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Natsuki, Blank Puppet.png"
+name = "Natsuki, Blank Puppet"
+power = "2"
+type = "Creature"
+atk = "0"
+def = "10"
+family = "Doki Doki Literature Club"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Sayori, Club President.png"
+name = "Sayori, Club President"
+power = "3"
+type = "Creature"
+atk = "3"
+def = "6"
+family = "Doki Doki Literature Club"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Yuri, Broken Obsession.png"
+name = "Yuri, Broken Obsession"
+power = "5"
+type = "Creature"
+atk = "6"
+def = "8"
+family = "Doki Doki Literature Club"
+hidden = true
+author = "Cat"
