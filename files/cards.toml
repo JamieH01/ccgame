@@ -702,7 +702,16 @@ name = "Cocoon"
 class = "Creature Butcher"
 power = "X"
 type = "Sorcery"
+family = "Spiderling"
 author = "Nia"
+
+[[card]]
+img = "EGO Equipment - Smile.png"
+name = "EGO Equipment - Smile"
+class = "Creature Butcher"
+type = "Legendary Equipment"
+author = "Nia"
+
 
 [[card]]
 img = "Feast.png"
@@ -711,6 +720,17 @@ class = "Creature Butcher"
 power = "4"
 type = "Sorcery"
 author = "Cat"
+
+[[card]]
+img = "Fresh Ingredient.png"
+name = "Fresh Ingredient"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Guy"
+atk = "2"
+def = "3"
+family = "Skeleton"
+author = "Nia"
 
 [[card]]
 img = "Hollow Point Fury.png"
@@ -800,6 +820,7 @@ type = "Legendary Creature"
 subtype = "Abnormality"
 atk = "0"
 def = "5"
+family = "Worker Bee"
 author = "Nia"
 
 [[card]]
@@ -860,6 +881,7 @@ type = "Creature"
 subtype = "Abnormality"
 atk = "0"
 def = "2"
+family = "Spiderling"
 author = "Nia"
 
 [[card]]
@@ -868,6 +890,7 @@ name = "Spiderling Meal"
 type = "Sorcery"
 class = "Creature Butcher"
 power = "1"
+family = "Spiderling"
 author = "Nia"
 
 [[card]]
@@ -896,6 +919,43 @@ subtype = "Abnormality"
 atk = "5"
 def = "5"
 author = "Nia"
+
+[[card]]
+img = "Skeleton.png"
+name = "Skeleton"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Skeleton"
+atk = "2"
+def = "2"
+family = "Skeleton"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Spiderling.png"
+name = "Spiderling"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Spiderling"
+atk = "0"
+def = "1"
+family = "Spiderling"
+hidden = true
+author = "Nia"
+
+[[card]]
+img = "Worker Bee.png"
+name = "Worker Bee"
+class = "Creature Butcher"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "1"
+family = "Worker Bee"
+hidden = true
+author = "Nia"
+
 
 [[card]]
 img = "dotdotdotGoblin.png"
