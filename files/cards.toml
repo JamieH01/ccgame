@@ -227,6 +227,16 @@ type = "Equipment"
 author = "Gibby"
 
 [[card]]
+img = "Biofuel Plant.png"
+name = "Biofuel Plant"
+class = "Land Tapper"
+power = "2"
+type = "Structure"
+atk = "0"
+def = "2"
+author = "Gibby"
+
+[[card]]
 img = "Biofuel.png"
 name = "Biofuel"
 class = "Land Tapper"
@@ -257,6 +267,14 @@ type = "Creature"
 subtype = "Bird"
 atk = "1"
 def = "1"
+author = "Gibby"
+
+[[card]]
+img = "Composter.png"
+name = "Composter"
+class = "Land Tapper"
+power = "4"
+type = "Equipment"
 author = "Gibby"
 
 [[card]]
@@ -368,6 +386,16 @@ name = "Hit and Run"
 class = "Land Tapper"
 power = "2"
 type = "Instant"
+author = "Gibby"
+
+[[card]]
+img = "Incubator.png"
+name = "Incubator"
+class = "Land Tapper"
+power = "5"
+type = "Structure"
+atk = "0"
+def = "4"
 author = "Gibby"
 
 [[card]]
@@ -566,7 +594,7 @@ img = "The Promised Land.png"
 name = "The Promised Land"
 class = "Land Tapper"
 power = "12"
-type = "Legendary Land"
+type = "Legendary Enchantment"
 author = "Gibby"
 
 [[card]]
@@ -993,6 +1021,13 @@ def = "5"
 author = "Nick"
 
 [[card]]
+img = "Goblin Disguise Kit.png"
+name = "Goblin Disguise Kit"
+power = "4"
+type = "Equipment"
+author = "Nick"
+
+[[card]]
 img = "Goblin Hut.png"
 name = "Goblin Hut"
 power = "3"
@@ -1208,6 +1243,13 @@ family = "Doki Doki Literature Club"
 author = "Cat"
 
 [[card]]
+img = "Spiked Shield.png"
+name = "Spiked Shield"
+power = "1"
+type = "Equipment"
+author = "Gibby"
+
+[[card]]
 img = "Standard_Training-Dummy_Rabbit.png"
 name = "Stadard Training-Dummy Rabbit"
 type = "Creature"
@@ -1216,6 +1258,14 @@ power = "1"
 atk = "2"
 def = "1"
 author = "Nia"
+
+[[card]]
+img = "Steel Shortsword.png"
+name = "Steel Shortsword"
+class = "Land Tapper"
+power = "1"
+type = "Equipment"
+author = "Gibby"
 
 [[card]]
 img = "The Gobbin' Bomb.png"
