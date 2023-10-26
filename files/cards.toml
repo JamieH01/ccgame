@@ -15,6 +15,7 @@ name = "Blessing of Despair"
 class = "Mana Ramper"
 power = "2"
 type = "Enchantment"
+family = "Knight of Despair"
 author = "Cat"
 
 [[card]]
@@ -75,6 +76,15 @@ def = "3"
 author = "Nia"
 
 [[card]]
+img = "Justice.png"
+name = "Justice"
+class = "Mana Ramper"
+power = "3"
+type = "Sorcery"
+family = "Knight of Despair"
+author = "Cat"
+
+[[card]]
 img = "Knight_of_Despair.png"
 name = "Knight of Despair"
 class = "Mana Ramper"
@@ -83,6 +93,7 @@ type = "Legendary Creature"
 subtype = "Abnormality"
 atk = "2"
 def = "5"
+family = "Knight of Despair"
 author = "Cat"
 
 [[card]]
@@ -171,6 +182,17 @@ subtype = "Abnormality"
 atk = "2"
 def = "5"
 author = "Nia"
+
+[[card]]
+img = "Sword Sharpened by Tears.png"
+name = "Sword Sharpened by Tears"
+class = "Mana Ramper"
+type = "Creature"
+atk = "3"
+def = "1"
+family = "Knight of Despair"
+hidden = true
+author = "Cat"
 
 [[card]]
 img = "Big Bird.png"
