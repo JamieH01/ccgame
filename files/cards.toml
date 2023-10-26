@@ -162,6 +162,14 @@ type = "Sorcery"
 author = "Nia"
 
 [[card]]
+img = "Story of Legends.png"
+name = "Story of Legends"
+class = "Mana Ramper"
+power = "5"
+type = "Sorcery"
+author = "Cat"
+
+[[card]]
 img = "The Lady Facing the Wall.png"
 name = "The Lady Facing the Wall"
 class = "Mana Ramper"
@@ -1052,6 +1060,30 @@ def = "2"
 author = "Nia"
 
 [[card]]
+img = "In the Name of Hate!.png"
+name = "In the Name of Hate!"
+power = "5"
+type = "Sorcery"
+family = "Queen of Hatred"
+author = "Cat"
+
+[[card]]
+img = "In the Name of Justice!.png"
+name = "In the Name of Justice!"
+power = "2"
+type = "Instant"
+family = "Queen of Hatred"
+author = "Cat"
+
+[[card]]
+img = "In the Name of Love!.png"
+name = "In the Name of Love!"
+power = "4"
+type = "Sorcery"
+family = "Queen of Hatred"
+author = "Cat"
+
+[[card]]
 img = "Insight Work.png"
 name = "Insight Work"
 power = "2"
@@ -1082,6 +1114,17 @@ type = "Creature"
 atk = "0"
 def = "1"
 author = "Nia"
+
+[[card]]
+img = "Magical Girl of Love.png"
+name = "Magical Girl of Love"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "3"
+def = "3"
+family = "Queen of Hatred"
+author = "Cat"
 
 [[card]]
 img = "Mark.png"
@@ -1256,6 +1299,18 @@ type = "Legendary Creature"
 atk = "2"
 def = "8"
 family = "Doki Doki Literature Club"
+author = "Cat"
+
+[[card]]
+img = "Queen of Hatred.png"
+name = "Queen of Hatred"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "6"
+def = "6"
+family = "Queen of Hatred"
+hidden = true
 author = "Cat"
 
 [[card]]
