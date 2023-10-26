@@ -219,6 +219,14 @@ def = "5"
 author = "Nia"
 
 [[card]]
+img = "Biofuel Generator.png"
+name = "Biofuel Generator"
+class = "Land Tapper"
+power = "1"
+type = "Equipment"
+author = "Gibby"
+
+[[card]]
 img = "Biofuel.png"
 name = "Biofuel"
 class = "Land Tapper"
