@@ -545,7 +545,7 @@ type = "Legendary Creature"
 subtype = "Divine Wolf"
 atk = "4"
 def = "4"
-family = "Rohul, Divine Beast"
+family = "Wolf"
 author = "Gibby"
 
 [[card]]
@@ -670,7 +670,7 @@ type = "Creature"
 subtype = "Wolf"
 atk = "2"
 def = "2"
-family = "Rohul, Divine Beast"
+family = "Wolf"
 hidden = true
 author = "Gibby"
 
@@ -730,6 +730,14 @@ type = "Sorcery"
 author = "Cat"
 
 [[card]]
+img = "Feed The Squirrels.png"
+name = "Feed The Squirrels"
+class = "Creature Butcher"
+power = "0"
+type = "Sorcery"
+author = "Obe"
+
+[[card]]
 img = "Fresh Ingredient.png"
 name = "Fresh Ingredient"
 class = "Creature Butcher"
@@ -766,6 +774,14 @@ class = "Creature Butcher"
 power = "2"
 type = "Sorcery"
 author = "Obe"
+
+[[card]]
+img = "Loot That Body.png"
+name = "Loot That Body"
+class = "Creature Butcher"
+power = "2"
+type = "Instant"
+author = "Cat"
 
 [[card]]
 img = "Master Baiter.png"
