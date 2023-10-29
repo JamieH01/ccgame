@@ -19,6 +19,14 @@ family = "Knight of Despair"
 author = "Cat"
 
 [[card]]
+img = "Blizzard's Kiss.png"
+name = "Blizzard's Kiss"
+class = "Mana Ramper"
+power = "8"
+type = "Sorcery"
+author = "Nia"
+
+[[card]]
 img = "Blue Star.png"
 name = "Blue Star"
 class = "Mana Ramper"
@@ -215,6 +223,25 @@ def = "6"
 family = "Knight of Despair"
 hidden = true
 author = "Cat"
+
+[[card]]
+img = "Alriune.png"
+name = "Alriune"
+class = "Land Tapper"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "3"
+def = "6"
+author = "Nia"
+
+[[card]]
+img = "Autumn's Passing.png"
+name = "Autumn's Passing"
+class = "Land Tapper"
+power = "5"
+type = "Environment"
+author = "Nia"
 
 [[card]]
 img = "Big Bird.png"
@@ -697,11 +724,30 @@ def = "X"
 author = "Obe"
 
 [[card]]
+img = "Bloodbath.png"
+name = "Bloodbath"
+class = "Creature Butcher"
+power = "2"
+type = "Structure"
+subtype = "Abnormality"
+atk = "0"
+def = "4"
+author = "Nia"
+
+[[card]]
 img = "Bullet Shower.png"
 name = "Bullet Shower"
 class = "Creature Butcher"
 power = "2"
 type = "Instant"
+author = "Nia"
+
+[[card]]
+img = "Chained Wrath.png"
+name = "Chained Wrath"
+class = "Creature Butcher"
+power = "2"
+type = "Enchantment"
 author = "Nia"
 
 [[card]]
@@ -720,7 +766,6 @@ class = "Creature Butcher"
 type = "Legendary Equipment"
 author = "Nia"
 
-
 [[card]]
 img = "Feast.png"
 name = "Feast"
@@ -736,6 +781,25 @@ class = "Creature Butcher"
 power = "0"
 type = "Sorcery"
 author = "Obe"
+
+[[card]]
+img = "Fervent Beats.png"
+name = "Fervent Beats"
+class = "Creature Butcher"
+power = "2"
+type = "Sorcery"
+author = "Nia"
+
+[[card]]
+img = "Forsaken Murderer.png"
+name = "Forsaken Murderer"
+class = "Creature Butcher"
+power = "2"
+type = "Creature"
+subtype = "Abnormality"
+atk = "1"
+def = "3"
+author = "Nia"
 
 [[card]]
 img = "Fresh Ingredient.png"
@@ -805,6 +869,14 @@ def = "3"
 author = "Nia"
 
 [[card]]
+img = "Pale Hands.png"
+name = "Pale Hands"
+class = "Creature Butcher"
+power = "2"
+type = "Sorcery"
+author = "Nia"
+
+[[card]]
 img = "Persistent Bones.png"
 name = "Persistent Bones"
 class = "Creature Butcher"
@@ -822,6 +894,22 @@ class = "Creature Butcher"
 power = "3"
 type = "Sorcery"
 author = "Obe"
+
+[[card]]
+img = "Present.png"
+name = "Present"
+class = "Creature Butcher"
+power = "2"
+type = "Enchantment"
+author = "Nia"
+
+[[card]]
+img = "Pulsation.png"
+name = "Pulsation"
+class = "Creature Butcher"
+power = "1"
+type = "Instant"
+author = "Nia"
 
 [[card]]
 img = "Punishing Bird.png"
@@ -872,6 +960,17 @@ name = "Red's Mark"
 class = "Creature Butcher"
 power = "2"
 type = "Enchantment"
+author = "Nia"
+
+[[card]]
+img = "Rudolta of the Sleigh.png"
+name = "Rudolta of the Sleigh"
+class = "Creature Butcher"
+power = "3"
+type = "Creature"
+subtype = "Abnormality"
+atk = "2"
+def = "4"
 author = "Nia"
 
 [[card]]
@@ -942,6 +1041,14 @@ type = "Legendary Creature"
 subtype = "Abnormality"
 atk = "5"
 def = "5"
+author = "Nia"
+
+[[card]]
+img = "Violence.png"
+name = "Violence"
+class = "Creature Butcher"
+power = "2"
+type = "Instant"
 author = "Nia"
 
 [[card]]
@@ -1026,6 +1133,16 @@ subtype = "Spider"
 atk = "1"
 def = "1"
 author = "Gibby"
+
+[[card]]
+img = "Child of the Galaxy.png"
+name = "Child of the Galaxy"
+power = "3"
+type = "Creature"
+subtype = "Abnormality"
+atk = "0"
+def = "4"
+author = "Nia"
 
 [[card]]
 img = "Containment Unit.png"
