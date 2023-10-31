@@ -230,7 +230,7 @@ img = "Regret.png"
 name = "Regret"
 class = "Mana Ramper"
 type = "Legendary Enchantment"
-family = "Technological Science E.G.O"
+family = "Technological Science Pages"
 hidden = true
 author = "Cat"
 
@@ -239,7 +239,7 @@ img = "Grinder Mkdot 5-2.png"
 name = "Grinder Mk. 5-2"
 class = "Mana Ramper"
 type = "Legendary Enchantment"
-family = "Technological Science E.G.O"
+family = "Technological Science Pages"
 hidden = true
 author = "Cat"
 
@@ -248,7 +248,7 @@ img = "Harmony.png"
 name = "Harmony"
 class = "Mana Ramper"
 type = "Legendary Enchantment"
-family = "Technological Science E.G.O"
+family = "Technological Science Pages"
 hidden = true
 author = "Cat"
 
@@ -257,7 +257,7 @@ img = "Solemn Lament.png"
 name = "Solemn Lament"
 class = "Mana Ramper"
 type = "Legendary Enchantment"
-family = "Technological Science E.G.O"
+family = "Technological Science Pages"
 hidden = true
 author = "Cat"
 
@@ -423,7 +423,7 @@ name = "Floor of Art"
 class = "Land Tapper"
 power = "4"
 type = "Legendary Enviorment"
-family = ["Art E.G.O", "Floors of Ruina"]
+family = ["Art Pages", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
@@ -761,7 +761,7 @@ img = "Fragments from Somewhere.png"
 name = "Fragments from Somewhere"
 class = "Land Tapper"
 type = "Legendary Enchantment"
-family = "Art E.G.O"
+family = "Art Pages"
 hidden = true
 author = "Cat"
 
@@ -770,7 +770,7 @@ img = "Our Galaxy.png"
 name = "Our Galaxy"
 class = "Land Tapper"
 type = "Legendary Enchantment"
-family = "Art E.G.O"
+family = "Art Pages"
 hidden = true
 author = "Cat"
 
@@ -779,7 +779,7 @@ img = "Pleasure.png"
 name = "Pleasure"
 class = "Land Tapper"
 type = "Legendary Enchantment"
-family = "Art E.G.O"
+family = "Art Pages"
 hidden = true
 author = "Cat"
 
@@ -788,7 +788,7 @@ img = "Faint Aroma.png"
 name = "Faint Aroma"
 class = "Land Tapper"
 type = "Legendary Enchantment"
-family = "Art E.G.O"
+family = "Art Pages"
 hidden = true
 author = "Cat"
 
@@ -797,7 +797,7 @@ img = "Da Capo.png"
 name = "Da Capo"
 class = "Land Tapper"
 type = "Legendary Enchantment"
-family = "Art E.G.O"
+family = "Art Pages"
 hidden = true
 author = "Cat"
 
@@ -896,7 +896,7 @@ name = "Floor of Literature"
 class = "Creature Butcher"
 power = "4"
 type = "Legendary Enviorment"
-family = ["Literature E.G.O", "Floors of Ruina"]
+family = ["Literature Pages", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
@@ -1201,7 +1201,7 @@ img = "Today's Expression.png"
 name = "Today's Expression"
 class = "Creature Butcher"
 type = "Legendary Enchantment"
-family = "Literature E.G.O"
+family = "Literature Pages"
 hidden = true
 author = "Cat"
 
@@ -1210,7 +1210,7 @@ img = "Sanguine Desire.png"
 name = "Sanguine Desire"
 class = "Creature Butcher"
 type = "Legendary Enchantment"
-family = "Literature E.G.O"
+family = "Literature Pages"
 hidden = true
 author = "Cat"
 
@@ -1219,7 +1219,7 @@ img = "Red Eyes.png"
 name = "Red Eyes"
 class = "Creature Butcher"
 type = "Legendary Enchantment"
-family = "Literature E.G.O"
+family = "Literature Pages"
 hidden = true
 author = "Cat"
 
@@ -1228,7 +1228,7 @@ img = "Laetitia's Gift.png"
 name = "Laetitia's Gift"
 class = "Creature Butcher"
 type = "Legendary Enchantment"
-family = "Literature E.G.O", "Laetitia"
+family = ["Literature Pages", "Laetitia"]
 hidden = true
 author = "Cat"
 
@@ -1237,7 +1237,7 @@ img = "Black Swan.png"
 name = "Black Swan"
 class = "Creature Butcher"
 type = "Legendary Enchantment"
-family = "Literature E.G.O"
+family = "Literature Pages"
 hidden = true
 author = "Cat"
 
@@ -1373,7 +1373,7 @@ name = "Floor of History"
 class = "Mana Ramper"
 power = "4"
 type = "Legendary Enviorment"
-family = ["History E.G.O", "Floors of Ruina"]
+family = ["History Pages", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
@@ -1830,7 +1830,7 @@ author = "Nia"
 img = "Fourth Match Flame.png"
 name = "Fourth Match Flame"
 type = "Legendary Enchantment"
-family = "History E.G.O"
+family = "History Pages"
 hidden = true
 author = "Cat"
 
@@ -1838,7 +1838,7 @@ author = "Cat"
 img = "The Forgotten.png"
 name = "The Forgotten"
 type = "Legendary Enchantment"
-family = "History E.G.O"
+family = "History Pages"
 hidden = true
 author = "Cat"
 
@@ -1846,7 +1846,7 @@ author = "Cat"
 img = "Wingbeat.png"
 name = "Wingbeat"
 type = "Legendary Enchantment"
-family = "History E.G.O"
+family = "History Pages"
 hidden = true
 author = "Cat"
 
@@ -1854,7 +1854,7 @@ author = "Cat"
 img = "Hornet.png"
 name = "Hornet"
 type = "Legendary Enchantment"
-family = "History E.G.O"
+family = "History Pages"
 hidden = true
 author = "Cat"
 
@@ -1862,6 +1862,6 @@ author = "Cat"
 img = "Green Stem.png"
 name = "Green Stem"
 type = "Legendary Enchantment"
-family = "History E.G.O"
+family = "History Pages"
 hidden = true
 author = "Cat"
