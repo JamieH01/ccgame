@@ -70,7 +70,7 @@ name = "Floor of Technological Science"
 class = "Mana Ramper"
 power = "4"
 type = "Legendary Enviorment"
-family = "Technological Science E.G.O"
+family = "Technological Science Pages"
 author = "Cat"
 
 [[card]]
@@ -266,7 +266,7 @@ img = "Magic Bullet.png"
 name = "Magic Bullet"
 class = "Mana Ramper"
 type = "Legendary Enchantment"
-family = "Technological Science E.G.O"
+family = "Technological Science Pages"
 hidden = true
 author = "Cat"
 
