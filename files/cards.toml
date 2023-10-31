@@ -65,6 +65,15 @@ def = "3"
 author = "Nia"
 
 [[card]]
+img = "Floor of Technological Science.png"
+name = "Floor of Technological Science"
+class = "Mana Ramper"
+power = "4"
+type = "Legendary Enviorment"
+family = "Technological Science E.G.O", "Floors of Ruina"
+author = "Cat"
+
+[[card]]
 img = "Frozen Duel.png"
 name = "Frozen Duel"
 class = "Mana Ramper"
@@ -104,14 +113,6 @@ atk = "2"
 def = "5"
 family = "Knight of Despair"
 author = "Cat"
-
-[[card]]
-img = "Magic Bullet.png"
-name = "Magic Bullet"
-class = "Mana Ramper"
-power = "1"
-type = "Legendary Sorcery"
-author = "Nia"
 
 [[card]]
 img = "Mass_Reproduction.png"
@@ -221,6 +222,51 @@ subtype = "Abnormality"
 atk = "3"
 def = "6"
 family = "Knight of Despair"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Regret.png"
+name = "Regret"
+class = "Mana Ramper"
+type = "Legendary Enchantment"
+family = "Technological Science E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Grinder Mkdot 5-2.png"
+name = "Grinder Mk. 5-2"
+class = "Mana Ramper"
+type = "Legendary Enchantment"
+family = "Technological Science E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Harmony.png"
+name = "Harmony"
+class = "Mana Ramper"
+type = "Legendary Enchantment"
+family = "Technological Science E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Solemn Lament.png"
+name = "Solemn Lament"
+class = "Mana Ramper"
+type = "Legendary Enchantment"
+family = "Technological Science E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Magic Bullet.png"
+name = "Magic Bullet"
+class = "Mana Ramper"
+type = "Legendary Enchantment"
+family = "Technological Science E.G.O"
 hidden = true
 author = "Cat"
 
@@ -370,6 +416,15 @@ subtype = "Werewolf"
 atk = "5"
 def = "3"
 author = "Gibby"
+
+[[card]]
+img = "Floor of Art.png"
+name = "Floor of Art"
+class = "Land Tapper"
+power = "4"
+type = "Legendary Enviorment"
+family = "Art E.G.O", "Floors of Ruina"
+author = "Cat"
 
 [[card]]
 img = "Footfalls.png"
@@ -702,6 +757,51 @@ hidden = true
 author = "Gibby"
 
 [[card]]
+img = "Fragments from Somewhere.png"
+name = "Fragments from Somewhere"
+class = "Land Tapper"
+type = "Legendary Enchantment"
+family = "Art E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Our Galaxy.png"
+name = "Our Galaxy"
+class = "Land Tapper"
+type = "Legendary Enchantment"
+family = "Art E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Pleasure.png"
+name = "Pleasure"
+class = "Land Tapper"
+type = "Legendary Enchantment"
+family = "Art E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Faint Aroma.png"
+name = "Faint Aroma"
+class = "Land Tapper"
+type = "Legendary Enchantment"
+family = "Art E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Da Capo.png"
+name = "Da Capo"
+class = "Land Tapper"
+type = "Legendary Enchantment"
+family = "Art E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
 img = "All-Around Helper.png"
 name = "All-Around Helper"
 class = "Creature Butcher"
@@ -789,6 +889,15 @@ class = "Creature Butcher"
 power = "2"
 type = "Sorcery"
 author = "Nia"
+
+[[card]]
+img = "Floor of Literature.png"
+name = "Floor of Literature"
+class = "Creature Butcher"
+power = "4"
+type = "Legendary Enviorment"
+family = "Literature E.G.O", "Floors of Ruina"
+author = "Cat"
 
 [[card]]
 img = "Forsaken Murderer.png"
@@ -1087,6 +1196,50 @@ family = "Worker Bee"
 hidden = true
 author = "Nia"
 
+[[card]]
+img = "Today's Expression.png"
+name = "Today's Expression"
+class = "Creature Butcher"
+type = "Legendary Enchantment"
+family = "Literature E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Sanguine Desire.png"
+name = "Sanguine Desire"
+class = "Creature Butcher"
+type = "Legendary Enchantment"
+family = "Literature E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Red Eyes.png"
+name = "Red Eyes"
+class = "Creature Butcher"
+type = "Legendary Enchantment"
+family = "Literature E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Laetitia's Gift.png"
+name = "Laetitia's Gift"
+class = "Creature Butcher"
+type = "Legendary Enchantment"
+family = "Literature E.G.O", "Laetitia"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Black Swan.png"
+name = "Black Swan"
+class = "Creature Butcher"
+type = "Legendary Enchantment"
+family = "Literature E.G.O"
+hidden = true
+author = "Cat"
 
 [[card]]
 img = "dotdotdotGoblin.png"
@@ -1213,6 +1366,15 @@ power = "1"
 type = "Legendary Environment"
 family = "Black Forest"
 author = "Nia"
+
+[[card]]
+img = "Floor of History.png"
+name = "Floor of History"
+class = "Mana Ramper"
+power = "4"
+type = "Legendary Enviorment"
+family = "History E.G.O", "Floors of Ruina"
+author = "Cat"
 
 [[card]]
 img = "Goblin Bombardier.png"
@@ -1663,3 +1825,43 @@ type = "Legendary Environment"
 family = "Black Forest"
 hidden = true
 author = "Nia"
+
+[[card]]
+img = "Fourth Match Flame.png"
+name = "Fourth Match Flame"
+type = "Legendary Enchantment"
+family = "History E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "The Forgotten.png"
+name = "The Forgotten"
+type = "Legendary Enchantment"
+family = "History E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Wingbeat.png"
+name = "Wingbeat"
+type = "Legendary Enchantment"
+family = "History E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Hornet.png"
+name = "Hornet"
+type = "Legendary Enchantment"
+family = "History E.G.O"
+hidden = true
+author = "Cat"
+
+[[card]]
+img = "Green Stem.png"
+name = "Green Stem"
+type = "Legendary Enchantment"
+family = "History E.G.O"
+hidden = true
+author = "Cat"
