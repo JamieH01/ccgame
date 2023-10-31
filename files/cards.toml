@@ -70,7 +70,7 @@ name = "Floor of Technological Science"
 class = "Mana Ramper"
 power = "4"
 type = "Legendary Enviorment"
-family = ["Technological Science E.G.O", "Floors of Ruina"]
+family = "Technological Science E.G.O"
 author = "Cat"
 
 [[card]]
