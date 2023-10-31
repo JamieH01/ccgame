@@ -70,7 +70,7 @@ name = "Floor of Technological Science"
 class = "Mana Ramper"
 power = "4"
 type = "Legendary Enviorment"
-family = "Technological Science E.G.O", "Floors of Ruina"
+family = ["Technological Science E.G.O", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
@@ -423,7 +423,7 @@ name = "Floor of Art"
 class = "Land Tapper"
 power = "4"
 type = "Legendary Enviorment"
-family = "Art E.G.O", "Floors of Ruina"
+family = ["Art E.G.O", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
@@ -896,7 +896,7 @@ name = "Floor of Literature"
 class = "Creature Butcher"
 power = "4"
 type = "Legendary Enviorment"
-family = "Literature E.G.O", "Floors of Ruina"
+family = ["Literature E.G.O", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
@@ -1373,7 +1373,7 @@ name = "Floor of History"
 class = "Mana Ramper"
 power = "4"
 type = "Legendary Enviorment"
-family = "History E.G.O", "Floors of Ruina"
+family = ["History E.G.O", "Floors of Ruina"]
 author = "Cat"
 
 [[card]]
