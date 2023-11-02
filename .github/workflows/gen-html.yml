@@ -10,7 +10,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4 
       - name: run script
-        run: cargo run
+        run: ./release/ccgame 
       - name: commit files
         run: |
           git config --global user.name 'JamieH01'

@@ -1,1 +1,8 @@
 target
+release/build
+release/deps
+release/examples
+release/incremental
+release/ccgame.d
+release/.cargo-lock
+release/.fingerprint
