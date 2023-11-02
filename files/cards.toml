@@ -922,6 +922,15 @@ family = "Skeleton"
 author = "Nia"
 
 [[card]]
+img = "Greed.png"
+name = "Greed"
+class = "Creature Butcher"
+power = "5"
+type = "Sorcery"
+family = "King of Greed"
+author = "Cat"
+
+[[card]]
 img = "Hollow Point Fury.png"
 name = "Hollow Point Fury"
 class = "Creature Butcher"
@@ -949,11 +958,32 @@ type = "Sorcery"
 author = "Obe"
 
 [[card]]
+img = "Intemperance.png"
+name = "Intemperance"
+class = "Creature Butcher"
+power = "3"
+type = "Sorcery"
+family = "King of Greed"
+author = "Cat"
+
+[[card]]
 img = "Loot That Body.png"
 name = "Loot That Body"
 class = "Creature Butcher"
 power = "2"
 type = "Instant"
+author = "Cat"
+
+[[card]]
+img = "Magical Girl of Happiness.png"
+name = "Magical Girl of Happiness"
+class = "Creature Butcher"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality
+atk = "1"
+def = "6"
+family = "King of Greed"
 author = "Cat"
 
 [[card]]
@@ -1070,6 +1100,15 @@ class = "Creature Butcher"
 power = "2"
 type = "Enchantment"
 author = "Nia"
+
+[[card]]
+img = "Road to Happiness.png"
+name = "Road to Happiness"
+class = "Creature Butcher"
+power = "3"
+type = "Enchantment"
+family = "King of Greed"
+author = "Cat"
 
 [[card]]
 img = "Rudolta of the Sleigh.png"
@@ -1195,6 +1234,19 @@ def = "1"
 family = "Worker Bee"
 hidden = true
 author = "Nia"
+
+[[card]]
+img = "King of Greed.png"
+name = "King of Greed"
+class = "Creature Butcher"
+power = "5"
+type = "Legendary Creature"
+subtype = "Abnormality"
+atk = "6"
+def = "8"
+family = "King of Greed"
+hidden = true
+author = "Cat"
 
 [[card]]
 img = "Today's Expression.png"
